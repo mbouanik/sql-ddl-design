@@ -4,7 +4,7 @@ CREATE DATABASE outer_space;
 
 \c outer_space
 
-REATE TABLE galaxies
+CREATE TABLE galaxies
 (
 	id SERIAL PRIMARY KEY,
 	galaxy_name TEXT NOT NULL

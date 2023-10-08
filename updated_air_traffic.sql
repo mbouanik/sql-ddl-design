@@ -1,5 +1,5 @@
 DROP DATABASE IF EXISTS air_traffic;
-CREATE DATABSE air_traffic;
+CREATE DATABASE air_traffic;
 
 
 \c air_traffic
@@ -19,7 +19,7 @@ CREATE TABLE airlines
 	name TEXT NOT NULL
 );
 
-CREATE TABLE destination
+CREATE TABLE destinations
 (
 	id SERIAL PRIMARY KEY,
 	country TEXT NOT NULL,
